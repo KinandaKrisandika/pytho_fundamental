@@ -14,5 +14,6 @@ if __name__ == '__main__' :
     # print (my_list[-1])
     # my_list.append(1000)
     # print(my_list)
-    my_map.update(my_map_2)
+    # my_map.update(my_map_2)
+    del my_map["key_1"] #if u want to delete your data in dictionary, it's just choose the key
     print(my_map)
